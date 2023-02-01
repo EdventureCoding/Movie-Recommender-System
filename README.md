@@ -5,6 +5,10 @@ https://user-images.githubusercontent.com/121994493/215998214-b1e05eea-979c-4dcf
 
 This project uses the TMDB movie metadata dataset to build a movie recommendation system that uses the Natural Language Toolkit (NLTK) similarity algorithm and a Streamlit user interface.
 
+## Dataset
+
+Movies & Credits: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?resource=download
+
 ## Features
 
   Data cleaning and preprocessing using Jupyter Notebook
@@ -33,7 +37,7 @@ This project uses the TMDB movie metadata dataset to build a movie recommendatio
 
   Clone the repository
   
-    git clone https://github.com/EdventureCoding/movie-recommender-system.git
+    git clone https://github.com/EdventureCoding/Movie-Recommender-System.git
     
   Install the required packages
   
