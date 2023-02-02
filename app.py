@@ -4,7 +4,7 @@ import pickle
 import requests
 
 def fetchposter(movie_id):
-    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=353e45f5dcc0fa83e3de162c63fa0878&language=en-US')
+    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=<API KEY>&language=en-US')
     data = response.json()
     return f"https://image.tmdb.org/t/p/w500{data['poster_path']}"
 def recommended(movie):
